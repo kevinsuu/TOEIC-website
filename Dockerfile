@@ -6,7 +6,7 @@
 FROM node:latest
 
 # 设置工作目录
-WORKDIR /toeic-website-app
+WORKDIR /app
 
 # 安装 serve
 RUN npm install -g serve
